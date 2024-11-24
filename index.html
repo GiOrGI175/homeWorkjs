@@ -6,11 +6,22 @@
     <link href="src/output.css" rel="stylesheet" />
     <title>Document</title>
   </head>
-  <body>
-    <div>
-      <div class="w-[20px] h-[20px] bg-black"></div>
+  <body class="bg-black">
+    <div
+      id="mainContainer"
+      class="w-[900px] mx-auto h-full flex justify-center items-center flex-wrap gap-8"
+    >
+      <!-- <div class="p-[20px] rounded-xl bg-cyan-200 flex flex-col gap-[10px]">
+        <h1 id="name" class="-bold text-[50px]">jjjjjjjjjj</h1>
+        <p id="username"></p>
+        <p id="email"></p>
+      </div> -->
     </div>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+
+    <div class="mt-[100px] w-full flex flex-col items-center">
+      <input type="text" placeholder="search" id="searchInput" />
+      <div id="mainContainer2" class="w-full flex flex-col gap-4"></div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
